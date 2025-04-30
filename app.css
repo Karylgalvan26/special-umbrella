@@ -1,0 +1,91 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bacad6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: #e1caca;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 900px;
+  }
+  
+  h1 {
+    color: #44af42;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #d7779a;
+  }
+  
+  button {
+    background-color: #cb7920;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #47cee0;
+  }
+  
+  input[type="text"], input[type="file"] {
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  input[type="text"]:focus, input[type="file"]:focus {
+    outline-color: #007bff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(215, 30, 30, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  li img {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  li button {
+    margin-left: auto;
+    background-color: #dc3545;
+  }
+  
+  li button:hover {
+    background-color: #ae666e;
+  }
+  
+  p {
+    color: #ff6347;
+    margin-top: 10px;
+  }
+  

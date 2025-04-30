@@ -1,6 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "quiz-app-final",
+  "name": "quiz-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,22 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "react-scripts": "^5.0.1"
->>>>>>> ea8d2e2372ac930d18df9c03a2ce4d95d59431e6
   }
 }
